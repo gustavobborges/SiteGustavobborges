@@ -2,7 +2,7 @@
 
     <head>
         <meta charset="utf-8">
-        <meta name"sobre">
+        <meta name"portifolio">
         <title>Sobre Gustavo</title>
         <link type="text/css" rel="stylesheet" href="estilo.css">
         <style>
@@ -10,7 +10,7 @@
         </style>
     </head>
     
-    <h2 class="t">Sobre</h2>
+    <h1>Eaii</h1>
     
     
 </html>
