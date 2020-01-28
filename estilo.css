@@ -1,9 +1,15 @@
-body {
-    background-color: #B7D0F4;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
     
+ }
+
+body {
+    color: navy;
+    line-height: 1.5;
+    background-color: blanchedalmond
 }
-
-
 
 .t {
    color: darkblue
@@ -13,6 +19,33 @@ body {
 .influencias {
     color: black;
     font-size: 22;
+}
+
+header {
+    background-color: lightskyblue;
+    height: 90px;
+    padding: 10px;
     
 }
 
+
+/*ID's */
+#principal{
+    background-image: url('Fotos/mergulho.jpg');
+    background-size: 100%;
+    min-height: 500px;
+}
+
+footer {
+    clear: both;
+    background-color: lightskyblue;
+    height: 20px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+/* class*/
+.container {
+    width: 960px;
+    margin:0 auto;
+}
