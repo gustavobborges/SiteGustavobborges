@@ -14,13 +14,7 @@ body {
 
 p {
     font-size: 50px;
-    text-shadow: 1px 1px 1px #111111;
-    
-    
-    
-}
-.t {
-   color: darkblue
+    text-shadow: 1px 1px 1px #111111; 
 }
 
 
@@ -36,7 +30,7 @@ header {
     
 }
 
-h1{
+h1 {
     font-size: 50px;
     text-align: center;
     padding: 50px 0 0 0;
@@ -44,15 +38,29 @@ h1{
     text-shadow: 1px 1px 1px lightskyblue;
 }
 
-h2{
+h2 {
     text-align: center;
     padding: 20 0 10 0 ;
+    margin: 0 0 0px 0;
+    color: darkblue;
+    text-shadow: 1px 1px 1px #111111; 
+}
+
+h3 {
+    color: lightblue
+
+}
+
+dt {
+    text-shadow: 1px 1px 1px #111111;
+    font-size: 20px;
+    
 }
 
 /*ID's */
 #principal{
     background-image: url('Fotos/mergulho.jpg');
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: 100%;
     min-height: 1000px;
     text-align: center;
