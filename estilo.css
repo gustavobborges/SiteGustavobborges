@@ -1,16 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
+    font-family: helvetica;
     
  }
 
+
 body {
-    color: navy;
+    color: #000031;
     line-height: 1.5;
     background-color: blanchedalmond
 }
 
+p {
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #111111;
+    
+    
+    
+}
 .t {
    color: darkblue
 }
@@ -28,12 +36,49 @@ header {
     
 }
 
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin: 0 0 0px 0;
+    text-shadow: 1px 1px 1px lightskyblue;
+}
+
+h2{
+    text-align: center;
+    padding: 20 0 10 0 ;
+}
 
 /*ID's */
 #principal{
     background-image: url('Fotos/mergulho.jpg');
+    background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 500px;
+    min-height: 1000px;
+    text-align: center;
+}
+
+#logo {
+    float: left;
+    margin-top: -5px
+    
+}
+
+#menu {
+    margin-top: 35px;
+    float:right
+}
+
+#menu a{   
+    padding: 40px 20px;
+    text-decoration: none;
+    color: #000031;
+    text-shadow: 0.2px 0.2px 0.2px #111111;
+    font-size: 18px;  
+}
+
+#menu a:hover{
+    background-color: blanchedalmond;
 }
 
 footer {
@@ -42,10 +87,17 @@ footer {
     height: 20px;
     text-align: center;
     padding: 10px 0px 10px 0px;
+    
 }
 
 /* class*/
 .container {
-    width: 960px;
+    min-width: 800px;
     margin:0 auto;
+}
+
+.efeito {
+    top: 50%; 
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 50px 300px 50px 300px;
 }
