@@ -13,10 +13,9 @@ body {
 }
 
 p {
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 1px 1px 1px #111111; 
 }
-
 
 .influencias {
     color: black;
@@ -26,35 +25,28 @@ p {
 header {
     background-color: lightskyblue;
     height: 90px;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 40px 0 0 0;
     margin: 0 0 0px 0;
     text-shadow: 1px 1px 1px lightskyblue;
 }
 
-h2 {
-    text-align: center;
-    padding: 20 0 10 0 ;
-    margin: 0 0 0px 0;
-    color: darkblue;
-    text-shadow: 1px 1px 1px #111111; 
-}
-
 h3 {
     color: lightblue
-
 }
 
 dt {
     text-shadow: 1px 1px 1px #111111;
     font-size: 20px;
-    
+}
+
+dd {
+    font-size: 18px;
 }
 
 /*ID's */
@@ -68,8 +60,7 @@ dt {
 
 #logo {
     float: left;
-    margin-top: -5px
-    
+    margin-top: -5px   
 }
 
 #menu {
@@ -108,4 +99,10 @@ footer {
     top: 50%; 
     background-color: rgba(0, 0, 0, 0.1);
     padding: 50px 300px 50px 300px;
+    border-radius: 50px;
+}
+
+.imagem {
+    border-radius: 1000px;
+    
 }
