@@ -2,34 +2,46 @@
     margin: 0;
     padding: 0;
     font-family: helvetica;
-    
- }
+    list-style: none;
+}
 
+a {
+    text-decoration: none;
+
+}
 
 body {
     color: #000031;
     line-height: 1.5;
-    background-color: blanchedalmond
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
 }
 
 p {
     font-size: 40px;
-    text-shadow: 1px 1px 1px #111111; 
+    text-shadow: 1px 1px 1px #111111;
+}
+
+#autoria {
+    text-align: right; font-size: 30px;
 }
 
 .influencias {
-    color: black;
-    font-size: 22;
+    color: #000031;
+    font-size: 20px;
 }
 
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
     background-color: lightskyblue;
-    height: 90px;
-    padding: 10px;  
+    height: auto;
 }
 
 h1 {
-    font-size: 40px;
     text-align: center;
     padding: 40px 0 0 0;
     margin: 0 0 0px 0;
@@ -50,59 +62,163 @@ dd {
 }
 
 /*ID's */
-#principal{
+
+
+#principal {
     background-image: url('Fotos/mergulho.jpg');
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 1000px;
+    height: 1000px;
+    text-align: center;
+}
+
+#secundaria {
+    background-image: url('Fotos/mergulho.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+    text-align: center;
+}
+
+ #contato {
+        font-size: 32px
+    }
+
+
+#afterbody {
+    background-color:dodgerblue;
+    min-height: 200px;
     text-align: center;
 }
 
 #logo {
     float: left;
-    margin-top: -5px   
+    margin-top: -5px
 }
 
-#menu {
-    margin-top: 35px;
-    float:right
-}
-
-#menu a{   
-    padding: 40px 20px;
-    text-decoration: none;
+.menu {
     color: #000031;
     text-shadow: 0.2px 0.2px 0.2px #111111;
-    font-size: 18px;  
+    font-size: 18px;
 }
 
-#menu a:hover{
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.menu a:hover {
     background-color: blanchedalmond;
+
+    
 }
 
 footer {
     clear: both;
     background-color: lightskyblue;
-    height: 20px;
+    height: 45px;
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+    object-position: bottom;
+    position: absolute;
     
+
 }
 
-/* class*/
-.container {
-    min-width: 800px;
-    margin:0 auto;
+.busca {
+ margin-left: 200px;
 }
 
 .efeito {
-    top: 50%; 
     background-color: rgba(0, 0, 0, 0.1);
     padding: 50px 300px 50px 300px;
-    border-radius: 50px;
 }
 
 .imagem {
-    border-radius: 1000px;
+    text-align: center;
+    border-radius: 200px
+}
+
+
+@media screen and (max-width: 900px) { 
+        
+    p { 
+        font-size: 15px;
+        text-shadow: 0.5px 0.5px 0.5px #111111;
+        }
+        
+    #autoria {
+        margin-top: -14px;
+        text-align: right;
+        font-size: 12px;
+        margin-right: 5px;
+    } 
+
+    .efeito {
+        width: 100%;
+        margin-top: 30px;
+        background-color: rgba(0, 0, 50, 0.1);
+        padding: 10px 0 10px 0;
+        }
+        
+    #principal {
+        background-color: #FFFFFF;
+        height: 650px;
+    }
+        
+    #secundaria {
+        background-image: none;
+        background-color: #FFFFFF;
+        min-height: 1250px;
+} 
+        
+    #contato {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    dd {
+        font-size: 12px
+    }
+    
+    dt {
+        margin-top: 20px;
+        text-shadow: 0.5px 0.5px 0.5px #111111;
+    }
+ 
+    .imagem {
+        width: 300px;
+        margin-top: 05px;
+        
+    }
+    
+    .projetogit {
+    color:black;
+    font-size: 5px;
+    }
+    
+    h3 {
+        color: #000031;
+        padding: 35px;
+    }
+    
+    #exp {
+        margin-top: -60px;
+    }
+    
+    #formacao {
+        padding: 15px;
+    }
+
+    
+    #logo {
+        margin-left: -15px;
+    }
     
 }
+  
