@@ -24,7 +24,43 @@ p {
 }
 
 #autoria {
-    text-align: right; font-size: 30px;
+    text-align: right;
+    font-size: 30px;
+}
+
+#card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-width: medium;
+    border-radius: 10px;
+    border-color: #000031;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: 350px;
+}
+
+.subtitle {
+    color: lightskyblue;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-shadow: lightskyblue;;
+}
+
+#imgcard {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+#titlecard {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #111111;
+}
+
+#textcard {
+    font-size: 16px;
+    text-shadow: none;
 }
 
 .influencias {
@@ -68,32 +104,39 @@ dd {
     background-image: url('Fotos/mergulho.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: top;
     height: 1000px;
     text-align: center;
+}
+
+#planofundobranco {
+    background-color: #FFFFFF;
 }
 
 #secundaria {
     background-image: url('Fotos/mergulho.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 1000px;
+    min-height: 1000px;
     text-align: center;
 }
 
- #contato {
-        font-size: 32px
-    }
+#contato {
+    font-size: 32px
+}
 
 
 #afterbody {
-    background-color:dodgerblue;
+    background-color: dodgerblue;
     min-height: 200px;
     text-align: center;
 }
 
 #logo {
     float: left;
-    margin-top: -5px
+    margin-top: -5px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .menu {
@@ -112,9 +155,7 @@ dd {
 }
 
 .menu a:hover {
-    background-color: blanchedalmond;
-
-    
+    background-color: #ffffff;
 }
 
 footer {
@@ -126,15 +167,20 @@ footer {
     width: 100%;
     object-position: bottom;
     position: absolute;
-    
+
 
 }
 
 .busca {
- margin-left: 200px;
+    margin-left: 200px;
 }
 
 .efeito {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 50px 300px 50px 300px;
+}
+
+.efeitocontato {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 50px 300px 50px 300px;
 }
@@ -145,80 +191,135 @@ footer {
 }
 
 
-@media screen and (max-width: 900px) { 
-        
-    p { 
+@media screen and (max-width: 900px) {
+
+    p {
         font-size: 15px;
         text-shadow: 0.5px 0.5px 0.5px #111111;
-        }
-        
-    #autoria {
-        margin-top: -14px;
-        text-align: right;
-        font-size: 12px;
-        margin-right: 5px;
-    } 
+    }
+
+
+    .title1 {
+        color: #FFFFFF;
+        text-shadow: 1px 1px 1px navy;
+    }
+
+    .subtitle {
+        color: lightskyblue;
+        font-size: 28px;
+        text-shadow: 2px 2px 2px #000031;
+    }
 
     .efeito {
+        color: aqua;
+        text-shadow: 20px 20px 20px white;
+        background-color: rgba(0, 0, 0, 0.5);
         width: 100%;
         margin-top: 30px;
-        background-color: rgba(0, 0, 50, 0.1);
-        padding: 10px 0 10px 0;
-        }
-        
-    #principal {
-        background-color: #FFFFFF;
-        height: 650px;
+        padding: 10px 0 1px 0;
     }
-        
+
+    .efeitocontato {
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 100%;
+        margin-top: 30px;
+        padding: 10px 0 1px 0;
+        font-size: 20px;
+    }
+
+
+    #autoria {
+        margin-top: -15px;
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 12px;
+        margin-right: 15px;
+    }
+
+    .fototransp {
+        opacity: 0.5;
+    }
+
+
+    #principal {
+        background-image: url(Fotos/planotec.jpg);
+        width: auto;
+        height: 400px
+    }
+
     #secundaria {
         background-image: none;
         background-color: #FFFFFF;
-        min-height: 1250px;
-} 
-        
+        min-height: 550px;
+    }
+
     #contato {
         margin-top: 20px;
-        font-size: 20px;
+        font-size: 42px;
     }
-    
+
     dd {
         font-size: 12px
     }
-    
+
     dt {
         margin-top: 20px;
         text-shadow: 0.5px 0.5px 0.5px #111111;
     }
- 
+
     .imagem {
         width: 300px;
         margin-top: 05px;
-        
+
     }
-    
+
     .projetogit {
-    color:black;
-    font-size: 5px;
+        color: black;
+        font-size: 5px;
     }
-    
+
     h3 {
         color: #000031;
         padding: 35px;
     }
-    
+
     #exp {
         margin-top: -60px;
     }
-    
+
     #formacao {
         padding: 15px;
     }
 
-    
+
     #logo {
         margin-left: -15px;
     }
+
+    #card {
+        margin: 10px;
+        padding: 0;
+        border-color: lightskyblue;
+        border-width: thick
+    }
+
+    .imagem {
+        margin-bottom: 20px;
+    }
+
+    
     
 }
-  
+
+/*#card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-width: medium;
+    border-radius: 10px;
+    border-color: #000031;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: 350px;
+}
+
