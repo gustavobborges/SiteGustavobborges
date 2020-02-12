@@ -44,7 +44,8 @@ p {
     color: lightskyblue;
     font-size: 28px;
     color: #FFFFFF;
-    text-shadow: lightskyblue;;
+    text-shadow: lightskyblue;
+    ;
 }
 
 #imgcard {
@@ -149,13 +150,22 @@ dd {
     margin-left: 10px;
 }
 
+.dropdown-menu {
+    background-color: #FFFFFF !important;
+    border-radius: 15px !important;
+
+}
+
+
 .menu li a {
     display: block;
     padding: 10px;
 }
 
+
 .menu a:hover {
     background-color: #ffffff;
+    border-radius: 15px
 }
 
 footer {
@@ -198,6 +208,12 @@ footer {
         text-shadow: 0.5px 0.5px 0.5px #111111;
     }
 
+    .dropdown-menu {
+        background-color: transparent !important;
+        margin-left: 30px !important;
+        border: none !important;
+
+    }
 
     .title1 {
         color: #FFFFFF;
@@ -307,8 +323,8 @@ footer {
         margin-bottom: 20px;
     }
 
-    
-    
+
+
 }
 
 /*#card {
@@ -322,4 +338,3 @@ footer {
     width: auto;
     height: 350px;
 }
-
